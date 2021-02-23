@@ -6,10 +6,7 @@ const NavigationBar = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/">App</Link>
-        </li>
-        <li>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/about">About</Link>

@@ -11,19 +11,16 @@ function App() {
     <Router>
       <NavigationBar />
       <Switch>
-        <Route path="/about">
+        <Route path="/about" component={About}>
           <About />
         </Route>
-        <Route path="/faq">
+        <Route path="/faq" component={FAQ}>
           <FAQ />
         </Route>
-        <Route path="/store">
+        <Route path="/store" component={Store}>
           <Store />
         </Route>
-        <Route path="/home">
-          <Home />
-        </Route>
-        <Route path="/">
+        <Route path="/" component={Home}>
           <Home />
         </Route>
       </Switch>
