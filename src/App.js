@@ -20,6 +20,9 @@ function App() {
         <Route path="/store" component={Store}>
           <Store />
         </Route>
+        <Route path="/app" component={Home}>
+          <Home />
+        </Route>
         <Route path="/" component={Home}>
           <Home />
         </Route>
